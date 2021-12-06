@@ -1,8 +1,9 @@
 # CRUD Nodejs and Mysql
-this is a basic application crud that uses nodejs in the backend, mysql as database.
+Basic app crud with nodejs n mysql as db.
 
+fork from https://github.com/FaztWeb/crud-nodejs-mysql
 # Usefull Commands
-- to init mysql: `mysql -u root -p`
+- To init mysql: `mysql -u root -p`
 
 # links
 - [bootstrap 4 theme](https://bootswatch.com/4/lux/bootstrap.min.css)

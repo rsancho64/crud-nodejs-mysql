@@ -1,7 +1,6 @@
 -- to create a new database
+DROP DATABASE IF EXISTS crudnodejsmysql;
 CREATE DATABASE crudnodejsmysql;
-
--- to use database
 use crudnodejsmysql;
 
 -- creating a new table

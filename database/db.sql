@@ -6,9 +6,10 @@ use crudnodejsmysql;
 -- creating a new table
 CREATE TABLE customer (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  name    VARCHAR(50)  NOT NULL,
-  address VARCHAR(100) , -- NOT NULL,
-  phone   VARCHAR(15)
+  name     VARCHAR(50)   NOT NULL,
+  apellido VARCHAR(50)   NOT NULL,
+  address  VARCHAR(100), --NOT NULL,
+  phone    VARCHAR(15)
 );
 
 insert into customer( name, address ) values

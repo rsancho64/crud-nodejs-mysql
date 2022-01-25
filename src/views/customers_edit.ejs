@@ -5,18 +5,21 @@
     <div class="col-md-5 offset-md-3 card">
       <div class="card-body">
         <form action="/update/<%= data.id %>" method="POST">
+          Name
           <div class="form-group">
             <input type="text" name="name" value="<%= data.name%>" placeholder="Name" class="form-control" autofocus>
           </div>
+          Address
           <div class="form-group">
             <input type="text" name="address" value="<%= data.address%>" placeholder="Address" class="form-control">
           </div>
+          Phone
           <div class="form-group">
             <input type="text" name="phone" value="<%= data.phone%>" placeholder="Phone" class="form-control">
           </div>
 
           <button type="submit" class="btn btn-primary">
-            save customer
+            guardar customer
           </button>
         </form>
       </div>
